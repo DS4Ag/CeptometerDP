@@ -13,24 +13,40 @@ R script to process data collected using the The AccuPAR LP-80 Ceptometer (r).
 
 ### Instructions
 ##### Data collection
-1. Data must have the "Annotation" value following this arrangement:
+1. Data must have the **Annotation** value following this arrangement:
 **ExperimentName_PlotNumber**
-E.g.  | **RUE_2** |
-**RUE** = Experiment name identifier 
-**_** = Required separation symbol
-**2** = Plot number 
+
+E.g. 
+
+|Annotation| 
+| ------ |
+| RUE_2 |
+
+    Where:
+        RUE = Experiment name identifier 
+
+        _ = Required separation symbol
+
+        2 = Plot number 
+
 
 2. In case of taking more than one measurement per plot, use the following format:
 ExperimentName_PlotNumber-MeasurementNumber
-E.g. |**RUE_2-1**|
-where 
-**RUE** = Experiment name identifier 
-**_** = Required separation symbol
-**2** = Plot number 
-**-** = Required separation symbol
-**1** = Measurmen 1 of n in the same plot.
 
-3. If you have wrong measurements, only delete the values for columns |Segment 1 PAR: Segment 8 PAR| (do not write 0 or any other character). Leave the rest of the rest of the column's values.  
+E.g. 
+
+|Annotation| 
+| ------ |
+| RUE_2-1 |
+
+    Where 
+    RUE = Experiment name identifier 
+    _ = Required separation symbol
+    2 = Plot number 
+    - = Required separation symbol
+    1 = Measurmen 1 of n in the same plot.
+
+3. If you have wrong measurements, only delete the values for columns from **Segment 1 PAR** to **Segment 8 PAR** (do not write 0 or any other character). Leave the rest of the rest of the column's values.  
 
 |Record Type| Date and Time|Annotation| Segment 1 PAR|  Segment 2 PAR|  Segment 3 PAR|  Segment 4 PAR|  Segment 5 PAR|  Segment 6 PAR|  Segment 7 PAR|  Segment 8 PAR|  External Sensor| PAR    Record ID|
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -41,16 +57,6 @@ where
 |ABV|   2/3/2023 14:09  ||| |   ||||    ||  0|  70662|
 |ABV|   2/3/2023 14:09| |35 |22.3|  8|  6.4 |8.3|   19.1|   41.6|   12.2|   0|  70663|
 |SUM|   2/3/2023 14:10|RUE_2-1||||||||||                                        70664|
-
-Annotation
-
-
-
-
-
-
-RUE_55-1
-
 
 
 
