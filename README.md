@@ -7,6 +7,8 @@
 [![tidyr](https://img.shields.io/badge/tidyr-1.0.3-success)](https://tidyr.tidyverse.org/)
 [![lubridate](https://img.shields.io/badge/lubridate-1.9.2-success)](https://lubridate.tidyverse.org/)
 
+[![DOI](https://zenodo.org/badge/680899711.svg)](https://zenodo.org/badge/latestdoi/680899711)
+
 ### Ceptometer Data Processing
 R script to process data collected using the The AccuPAR LP-80 Ceptometer (r).
 
